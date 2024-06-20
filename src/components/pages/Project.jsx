@@ -28,11 +28,7 @@ export const Project = () => {
   return (
     <div className="project-div" id="project">
       <div>
-<<<<<<< HEAD
-        <h1>PROJECTS</h1>
-=======
         <h1>Projects</h1>
->>>>>>> 9d7580f97947da5036e80ab80868ab746451ac05
       </div>
       <div className="flex-wrap">
         {projects.map((project, index) => {

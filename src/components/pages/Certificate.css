@@ -25,31 +25,10 @@
     flex-direction: row;
     width: 100%;
     height: 400px;
-<<<<<<< HEAD
-    box-sizing: border-box;
-    background-color: var(--container-color);
-    border-radius: 10px;
-  }
-
-  .cert-area .flex-wrap .content:hover {
-    transform: scale(1.1);
-  }
-
-  .cert-area .flex-wrap .content:hover h1,
-  .cert-area .flex-wrap .content:hover h2,
-  .cert-area .flex-wrap .content:hover h3,
-  .cert-area .flex-wrap .content:hover h4,
-  .cert-area .flex-wrap .content:hover h5,
-  .cert-area .flex-wrap .content:hover h6 {
-    color: aqua;
-  }
-
-=======
 
     box-sizing: border-box;
     background-color: var(--container-color);
   }
->>>>>>> 9d7580f97947da5036e80ab80868ab746451ac05
   .cert-area .content div {
     position: relative;
     display: flex;

@@ -35,20 +35,12 @@
     left: 0;
     width: 100%;
     height: 100%;
-<<<<<<< HEAD
-    background-color: rgba(43, 41, 41, 0.959);
-=======
     background-color: rgba(0, 0, 0, 0.8);
->>>>>>> 9d7580f97947da5036e80ab80868ab746451ac05
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-<<<<<<< HEAD
-    font-size: 3vw;
-=======
     font-size: 4vw;
->>>>>>> 9d7580f97947da5036e80ab80868ab746451ac05
     display: flex;
     color: var(--title-color);
   }

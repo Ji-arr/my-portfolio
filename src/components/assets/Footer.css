@@ -14,6 +14,7 @@
 .footer-links a {
   text-decoration: none;
 }
+
 .footer-links a {
   display: flex;
   align-items: center;
@@ -38,10 +39,7 @@
 }
 
 .footer-links a:nth-child(4):hover::after {
-<<<<<<< HEAD
   font-size: 1rem;
-=======
->>>>>>> 9d7580f97947da5036e80ab80868ab746451ac05
   content: "portaganajayar@gmail.com";
   position: absolute;
   top: -50px;
@@ -51,7 +49,6 @@
   color: white;
   padding: 5px;
   border-radius: 5;
-<<<<<<< HEAD
 }
 
 .footer-links a:nth-child(1):hover {
@@ -72,20 +69,5 @@
 .footer-links a:nth-child(4):hover {
   border: 2px solid green;
   font-size: 150%;
-=======
   /* Styles for the fourth child */
-}
-
-.footer-links a:nth-child(1):hover {
-  border: 1px solid red;
-}
-.footer-links a:nth-child(2):hover {
-  border: 1px solid blue;
-}
-.footer-links a:nth-child(3):hover {
-  border: 1px solid yellow;
-}
-.footer-links a:nth-child(4):hover {
-  border: 1px solid green;
->>>>>>> 9d7580f97947da5036e80ab80868ab746451ac05
 }

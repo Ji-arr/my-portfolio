@@ -36,7 +36,6 @@
     transform: rotate(360deg);
   }
 } */
-<<<<<<< HEAD
 /* Custom scrollbar styles */
 ::-webkit-scrollbar {
   width: 12px; /* Adjust the width of the scrollbar */
@@ -69,5 +68,3 @@
   transition: transform 0.2s ease;
   z-index: 99999;
 }
-=======
->>>>>>> 9d7580f97947da5036e80ab80868ab746451ac05

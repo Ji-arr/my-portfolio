@@ -1,0 +1,174 @@
+@media screen and (min-width: 1025px) {
+  .banner {
+    display: flex;
+    min-height: 90vh;
+    max-width: 100vw;
+    background-color: var(--background-color);
+    justify-content: center;
+    padding: 5vh 30vh;
+    margin-bottom: 3rem;
+  }
+
+  .banner .flex-wrap {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background-color: var(--container-color);
+    padding: 3vh;
+    border-radius: 50px 50px 250px 250px;
+  }
+
+  .banner .picture,
+  .content {
+    width: 45%;
+    box-sizing: border-box;
+  }
+
+  .banner .picture {
+    background-image: url("./profile1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px 200px 50px 200px;
+    z-index: 1;
+    border: 10px solid black;
+  }
+
+  .banner .content {
+    display: flex;
+    flex-direction: column;
+    border-radius: 200px 50px 200px 50px;
+    z-index: 1;
+    border: 10px solid black;
+  }
+  .banner .header {
+    text-align: right;
+  }
+  /*center*/
+  .banner span.with-line {
+    display: block;
+    content: "";
+    height: 50px;
+    width: 50px;
+    margin: 20% 0;
+    border-bottom: 40px solid white;
+  }
+  /*right*/
+  .banner div.with-line.right {
+    display: block;
+    content: "";
+    height: 100px;
+    width: 50px;
+    margin: 10% 0;
+    border-top: 30px solid white;
+    border-right: 10px solid white;
+    transform: rotate(-20deg);
+    z-index: 0;
+  }
+  /*left*/
+  .banner div.with-line.left {
+    display: block;
+    content: "";
+    height: 100px;
+    width: 50px;
+    margin: 10% 0;
+    border-top: 30px solid white;
+    border-left: 10px solid white;
+    transform: rotate(20deg);
+    z-index: 0;
+  }
+  .banner .content h1,
+  h2,
+  p {
+    margin: 20px 20px;
+  }
+
+  .banner .content h2 {
+    color: var(--cyan-color);
+  }
+
+  .banner .content p {
+    color: var(--text-color);
+  }
+}
+
+/*mobile view*/
+@media screen and (max-width: 1024px) {
+  .banner {
+    display: flex;
+    min-height: 90vh;
+    max-width: 100vw;
+    background-color: var(--background-color);
+    justify-content: center;
+    padding: 5vh 10vh;
+  }
+
+  .banner .flex-wrap {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    background-color: var(--container-color);
+    padding: 3vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .banner .picture,
+  .content {
+    width: 45%;
+    min-width: 200px;
+    box-sizing: border-box;
+  }
+
+  .banner .picture {
+    content: "";
+    display: flex;
+    height: 650px;
+    background-image: url("./profile1.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    border: 10px solid black;
+  }
+
+  .banner .content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    z-index: 1;
+    border: 10px solid black;
+  }
+  .banner .header {
+    text-align: right;
+  }
+  /*center*/
+  .banner span.with-line {
+    display: none;
+  }
+  /*right*/
+  .banner div.with-line.right {
+    display: none;
+  }
+  /*left*/
+  .banner div.with-line.left {
+    display: none;
+  }
+  .banner .content h1,
+  h2,
+  p {
+    margin: 20px 20px;
+  }
+
+  .banner .content h2 {
+    color: var(--cyan-color);
+  }
+
+  .banner .content p {
+    color: var(--text-color);
+  }
+}

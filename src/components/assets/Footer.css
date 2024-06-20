@@ -1,0 +1,71 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--container-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-links a {
+  text-decoration: none;
+}
+.footer-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  color: var(--text-color);
+  border-radius: 50px;
+  border: 2px solid white;
+}
+
+.footer p {
+  color: var(--text-color);
+}
+
+.footer .copyright {
+  width: 100%;
+  text-align: center;
+  background-color: var(--footer-color);
+}
+
+.footer-links a:nth-child(4):hover::after {
+  font-size: 1rem;
+  content: "portaganajayar@gmail.com";
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5;
+}
+
+.footer-links a:nth-child(1):hover {
+  border: 2px solid red;
+  font-size: 150%;
+}
+
+.footer-links a:nth-child(2):hover {
+  border: 2px solid blue;
+  font-size: 150%;
+}
+
+.footer-links a:nth-child(3):hover {
+  border: 2px solid yellow;
+  font-size: 150%;
+}
+
+.footer-links a:nth-child(4):hover {
+  border: 2px solid green;
+  font-size: 150%;
+}

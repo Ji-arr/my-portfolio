@@ -1,0 +1,72 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+:root {
+  /*=============== colors ===============*/
+
+  color: var(--text-color); /*set all text to white*/
+  --container-color: #1e1e1e; /* 30 */
+  --footer-color: #1b1b1b;
+  --background-color: #121212; /*60 */
+  --hover-color: #535353;
+  --text-color: #dadada;
+  --title-color: #ffff;
+  --btn-color: #1db954; /* 10 */
+  --cyan-color: #37f5eb;
+
+  /*======= font and typography ===========*/
+  --body-font: "Roboto", sans-serif;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.5rem;
+
+  /*============= font weight =============*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body {
+  background-color: var(--background-color);
+  line-height: 1.8;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: var(--font-semi-bold);
+  line-height: 1.2;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,119 @@
+@media screen and (min-width: 501px) {
+  .project-div {
+    min-height: 100vh;
+    padding: 0 30vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+  }
+  .project-div .flex-wrap {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+
+    gap: 10px;
+  }
+  .project-div .flex-wrap .project-card {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project-div .flex-wrap .overlay h1 {
+    display: none;
+  }
+  .project-div .flex-wrap .overlay:hover h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(43, 41, 41, 0.959);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3vw;
+    display: flex;
+    color: var(--title-color);
+  }
+
+  .project-div .flex-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project-div {
+    min-height: 100vh;
+    padding: 0 10vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+  }
+  .project-div .flex-wrap {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+
+    gap: 10px;
+  }
+  .project-div .flex-wrap .project-card {
+    position: relative;
+    width: 150px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project-div .flex-wrap .overlay h1 {
+    display: none;
+  }
+  .project-div .flex-wrap .overlay:hover h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 4vw;
+    display: flex;
+    color: var(--title-color);
+  }
+
+  .project-div .flex-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

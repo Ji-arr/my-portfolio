@@ -17,7 +17,6 @@ export const Footer = () => {
           return (
             <a key={index} href={f_link.href}>
               <p>{f_link.name}</p>
-              {f_link.name}
             </a>
           );
         })}

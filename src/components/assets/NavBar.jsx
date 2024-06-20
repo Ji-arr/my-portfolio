@@ -3,9 +3,15 @@ import "./NavBar.css";
 
 export const NavBar = () => {
   const links = [
+<<<<<<< HEAD
     { index: 0, href: "banner", text: "Home" },
     { index: 1, href: "project", text: "Project" },
     { index: 2, href: "certificate", text: "Certificate" },
+=======
+    { index: 0, href: "banner", text: "home" },
+    { index: 1, href: "project", text: "project" },
+    { index: 2, href: "certificate", text: "certificate" },
+>>>>>>> 9d7580f97947da5036e80ab80868ab746451ac05
     { index: 3, href: "contact", text: "contact" },
   ];
 

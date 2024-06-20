@@ -19,7 +19,11 @@ export const Certificate = () => {
   ];
   return (
     <div className="cert-area" id="certificate">
+<<<<<<< HEAD
       <h1>CERTIFICATES</h1>
+=======
+      <h1>Certifcates</h1>
+>>>>>>> 9d7580f97947da5036e80ab80868ab746451ac05
       <div className="flex-wrap">
         {images.map((image) => {
           return (

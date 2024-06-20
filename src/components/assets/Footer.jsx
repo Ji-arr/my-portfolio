@@ -16,7 +16,11 @@ export const Footer = () => {
         {footer_links.map((f_link, index) => {
           return (
             <a key={index} href={f_link.href}>
+<<<<<<< HEAD
               <p>{f_link.name}</p>
+=======
+              {f_link.name}
+>>>>>>> 9d7580f97947da5036e80ab80868ab746451ac05
             </a>
           );
         })}
